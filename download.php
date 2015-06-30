@@ -1,0 +1,1 @@
+<?PHP $filename = basename($_GET['f']); header("Content-Disposition: attachment; filename=\"$filename\""); readfile($_GET['f']); ?>
